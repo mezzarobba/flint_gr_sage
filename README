@@ -1,1 +1,20 @@
 Prototype implementation of Sage wrappers for FLINT generic rings
+
+TODO:
+
+(see also comments in code)
+
+- more coercions and constructions
+- more flexible handling of T_UNKNOWN
+- inline element structs in Element object for at least some contexts
+  (Element subclasses?)
+- systematically wrap gr API
+- more conversions from/to usual Sage objects
+  (including fexpr <-> SR?)
+- FlintPolynomial class (as subclass of FlintElement or Polynomial?)
+- FlintMatrix
+- FlintMPolynomial
+- element subclasses with type-specific methods where relevant
+- adapters for viewing Sage objects as Flint generic ring elements
+- documentation, tests
+- ...
